@@ -6,9 +6,9 @@ There are four files
 4. "kernels.py"
 5. "pk.dat"
 
-1.) "multipoles.py" is the master file. To compute any multipole user need
+1.) "multipoles.py" is the master file. To compute any multipole user need to
     >> import "multipoles.py" as ml .
-Then, any multiole can be computed using following form
+Then, any multpiole can be computed using following form
  ml.multipole(l,m,k_1,mu,t,beta_1,b_1,gamma_2)
 where, the details of each argument can be found in ref[]. 
 
