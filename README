@@ -29,7 +29,8 @@ mu and t. The difference between F and G is also computed as dG
 provides the matter power spectrum. The cosmological parametrs used 
 for generation of "pk.dat" were set as per Planck 2015 results[2].
 
-
+-Written by
+Somnath Bharadwaj, Debanjan Sarkar, Arindam Mazumdar
 
 references:
 [1]
