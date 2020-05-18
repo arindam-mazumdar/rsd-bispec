@@ -10,11 +10,11 @@ There are four files
     >> import "multipoles.py" as ml .
 Then, any multpiole can be computed using following form
  ml.multipole(l,m,k_1,mu,t,beta_1,b_1,gamma_2)
-where, the details of each argument can be found in ref[]. 
+where, the details of each argument can be found in ref[1]. 
 
 "multipoles.py" imports the other mentioned files.
 
-2.) "terms.py" computes the R,S,T terms as described in ref[].
+2.) "terms.py" computes the R,S,T terms as described in ref[1].
 
 3.) "bispec_functions.py" sets the cosmological parameters. It 
 interpolates the externally provided matter power spectrum, P(k), [pk.dat] 
@@ -33,5 +33,9 @@ for generation of "pk.dat" were set as per Planck 2015 results[2].
 Somnath Bharadwaj, Debanjan Sarkar, Arindam Mazumdar
 
 references:
-[1]
+[1] Mazumdar, Arindam and Bharadwaj, Somnath and Sarkar, Debanjan,
+    Quantifying the Redshift Space Distortion of the Bispectrum II: 
+    Induced Non-Gaussianity at Second Order Perturbation
+    https://arxiv.org/abs/2005.07066
+    
 [2] https://arxiv.org/abs/1502.01589
