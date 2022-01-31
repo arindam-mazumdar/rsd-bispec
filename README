@@ -1,10 +1,10 @@
 This package computes the multipoles of redshift space bispectrum.
 There are four files 
-1. "multipoles.py" :
-2. "terms.py":
-3. "bispec_functions.py"
-4. "kernels.py"
-5. "pk.dat"
+ - "multipoles.py" :
+ - "terms.py":
+ - "bispec_functions.py"
+ - "kernels.py"
+ - Aditional "pk.dat" provides matter power spectrum calculated using CLASSS code.
 
 1.) "multipoles.py" is the master file. To compute any multipole user need to
     >> import "multipoles.py" as ml .
